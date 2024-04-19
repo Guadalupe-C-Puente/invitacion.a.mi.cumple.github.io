@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="shortcut icon"
+    href="https://thumbs.dreamstime.com/b/letra-g-de-la-fuente-brillante-p%C3%BArpura-ne%C3%B3n-aislada-en-negro-ejemplo-d-s%C3%ADmbolos-alfabeto-aisl%C3%B3-el-fondo-154935989.jpg"
+    type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesCSS.html/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <title>¡INVITACIÓN A MI CUMPLE! </title>
+    </head>
+
+    <div class="dropdown btn-centrado">
+    <div> <button id="myBtn" class="dropbtn">NAVEGACIÓN </button> </div>
+    <div id="NAV" class="dropdown-content padding">
+      <a href="#experiencia">DIRECCIÓN</a>
+      <a href="#contáctame">CONTÁCTAME</a>
+      <a href="./index.html">Cerrar</a>
+      </div>
+    </div>
+<body>
+<header>
+  <div class= "centrado"><img class="img-fluid" src="https://w7.pngwing.com/pngs/868/18/png-transparent-silhouette-woman-dia-de-la-mujer-purple-animals-violet.png" alt="Imagen de mujer de CV" id="imagen-CV">
+  </div>
+  <div class="contenedor-título">
+  <h1> ¡INVITACIÓN A MI CUMPLE! </h1>
+  </div>
+  <div class="centrado"><button onclick="getElementById('demo').innerHTML=Date()">HOLAA</button>
+  </div>
+  <div class="centrado">
+  <p id="demo"></p>
+  </div>
+</header>
+<div class="Datos">
+<div class="between">
+<div><h2 class="text-center"><i class="fa-regular fa-calendar"></i> DÍA: SÁBADO 27 DE ABRIL</h2>
+  <p>↓ <br /></p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+  <p>↓</p>
+</div>
+
+<div id="experiencia"><h2 class="text-center"><i class="fa-regular fa-clock"></i> HORARIO: 21:30 HS</h2>
+
+</div>
+</div>
+
+ <div class="between">
+ <div><h2 class="text-center"><i class="fa-solid fa-map-location-dot"></i> DIRECCIÓN</h2>
+ <p>♥ CASA:  <br/> 
+  <button onclick="window.open('https://wa.me/')"  
+   id="Boton-Dirección"> <i class="fa-solid fa-hand-point-right"></i> ¡RAMIREZ DE VELAZCO - PEDIR UBICACIÓN!  <i class="fa-solid fa-hand-point-left"></i>
+  </button>
+   </p>
+  </div>
+  
+  <div><h2 class="text-center"><i class="fa-brands fa-whatsapp"></i>  CONTÁCTAME</h2> 
+
+  <p> ♥ Link a WhatsApp: <br/>
+    <button onclick="window.open('https://wa.me/')"  
+   id="Boton-Dirección"> <i class="fa-solid fa-hand-point-right"></i> ¡CONFIRMAR PRESENCIA!  <i class="fa-solid fa-hand-point-left"></i></button> </p>  
+  </div>
+  </div>
+<footer>
+<div class="centrado" id="contáctame" >
+<button id="Contactar" onclick="MostrarTelefono()"># FIESTA </button>
+</div>
+<div class="centrado" ><p id="telefono"></p></div>
+
+</footer>
+</body>
+<!--Boton Nav-->
+<script>
+  document.getElementById("myBtn").onclick = function() {myFunction()};
+  function myFunction() {
+  document.getElementById("NAV").classList.toggle("show");
+ }
+</script>
+
+<!--boton hasta luego --> 
+<script>
+  function MostrarTelefono(){
+  document.getElementById("telefono").innerHTML = " ♥ ¡NOS VEMOS EL SÁBADO! ♥ ";
+  }
+  </script>
+<!--font awesome-->
+<script src="https://kit.fontawesome.com/a2f27b45d8.js" crossorigin="anonymous"></script>
+
+<a href="#" class="btn btn-info" role="button">__________IR AL INICIO DE LA PÁGINA__________</a>
+
+</html>
